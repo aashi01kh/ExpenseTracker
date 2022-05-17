@@ -1,0 +1,23 @@
+.expense-filter {
+  display: flex;
+  font-size: 1.5rem;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: flex-end;
+  align-items: flex-end;
+  margin: 1.5vh;
+}
+.expense-filter__control label {
+  margin-right: 68.8vh;
+  font-size: 4vh;
+  color: white;
+}
+.expense-filter__control select {
+  height: 4vh;
+  width: 10vh;
+  border-radius: 1.2vh;
+  text-align: center;
+  font-size: 2.3vh;
+  background-color: rgb(37, 33, 33);
+  color: white;
+}
