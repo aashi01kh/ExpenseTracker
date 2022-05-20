@@ -7,6 +7,7 @@ const ExpenseForm = (props) => {
   const ForumSubmitHandler = (event) => {
     event.preventDefault();
     const expensData = {
+      id: Math.random(),
       title: titleEntered,
       amount: amountEntered,
       date: new Date(dateEnterd),
