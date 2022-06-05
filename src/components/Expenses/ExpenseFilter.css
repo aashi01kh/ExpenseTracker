@@ -9,8 +9,13 @@
 }
 .expense-filter__control label {
   margin-right: 68.8vh;
+
   font-size: 4vh;
   color: white;
+  align-self: flex-start;
+  justify-content: flex-start;
+  align-items: flex-start;
+  justify-items: flex-start;
 }
 .expense-filter__control select {
   height: 4vh;
@@ -20,4 +25,5 @@
   font-size: 2.3vh;
   background-color: rgb(37, 33, 33);
   color: white;
+  margin-right: 0;
 }

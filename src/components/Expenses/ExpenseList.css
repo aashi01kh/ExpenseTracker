@@ -1,0 +1,12 @@
+.noexpense {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  position: relative;
+  margin: auto;
+  justify-content: center;
+  font-size: 5vh;
+}
+.item-list {
+  list-style-type: none;
+}
